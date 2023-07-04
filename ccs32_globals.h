@@ -3,6 +3,9 @@
 
 /* Logging verbosity settings */
 //#define VERBOSE_INIT_ETH
+//#define VERBOSE_QCA7000
+//#define VERBOSE_UDP
+//#define VERBOSE_EXI_DECODER
 
 /* Ethernet */
 #define MY_ETH_TRANSMIT_BUFFER_LEN 250

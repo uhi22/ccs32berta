@@ -539,13 +539,15 @@ void evaluateGetSwCnf(void) {
       strVersion[i] = 0; 
       //addToTrace(strMac);
       addToTrace("For " + strMac + " the software version is " + String(strVersion)); 
-      StringVersion = String(strVersion);
-      Serial.println("For " + strMac + " the software version is " + StringVersion);
-      /* As demo, show the modems software version on the OLED display, splitted in four lines: */      
-      line1 = StringVersion.substring(0, 11);
-      line2 = StringVersion.substring(11, 22);
-      line3 = StringVersion.substring(22, 33);
-      line4 = StringVersion.substring(33, 44);
+      #ifdef DEMO_SHOW_MODEM_SOFTWARE_VERSION_ON_OLED
+        StringVersion = String(strVersion);
+        Serial.println("For " + strMac + " the software version is " + StringVersion);
+        /* As demo, show the modems software version on the OLED display, splitted in four lines: */      
+        OledLine1 = StringVersion.substring(0, 11);
+        OledLine2 = StringVersion.substring(11, 22);
+        OledLine3 = StringVersion.substring(22, 33);
+        OledLine4 = StringVersion.substring(33, 44);
+      #endif
     }        
 }
 
@@ -744,8 +746,8 @@ void runSlacSequencer(void) {
 }
 
 void runSdpStateMachine(void) {
-  if (connMgr_getConnectionLevel()<20) {
-    /* We have no AVLN established. It does not make sense to start SDP. */
+  if (connMgr_getConnectionLevel()<15) {
+    /* We have no AVLN established, and SLAC is not ongoing. It does not make sense to start SDP. */
     sdp_state = 0; 
     return;
   }

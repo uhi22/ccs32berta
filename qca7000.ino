@@ -103,6 +103,8 @@ void QCA7000checkRxDataAndDistribute(int16_t availbytes) {
   uint16_t  L1, L2;
   uint8_t *p;
   uint8_t  blDone = 0; 
+  uint8_t counterOfEthFramesInSpiFrame;
+  counterOfEthFramesInSpiFrame = 0;
   p= mySpiRxBuffer;
   while (!blDone) {  /* The SPI receive buffer may contain multiple Ethernet frames. Run trough all. */
       /* the SpiRxBuffer contains more than the ethernet frame:
@@ -119,6 +121,7 @@ void QCA7000checkRxDataAndDistribute(int16_t availbytes) {
       L2 = p[9]; L2<<=8; L2+=p[8];
       if ((p[4]=0xAA) && (p[5]=0xAA) && (p[6]=0xAA) && (p[7]=0xAA) 
             && (L2+10==L1)) {
+          counterOfEthFramesInSpiFrame++;
           /* The start of frame and the two length informations are plausible. Copy the payload to the eth receive buffer. */
           myethreceivebufferLen = L2;
           /* but limit the length, to avoid buffer overflow */       
@@ -127,8 +130,10 @@ void QCA7000checkRxDataAndDistribute(int16_t availbytes) {
           }
           memcpy(myethreceivebuffer, &p[12], myethreceivebufferLen);
           /* We received an ethernet package. Determine its type, and dispatch it to the related handler. */
-          uint16_t etherType = getEtherType(myethreceivebuffer);      
-          showAsHex(myethreceivebuffer, myethreceivebufferLen, "eth.myreceivebuffer");   
+          uint16_t etherType = getEtherType(myethreceivebuffer);
+          #ifdef VERBOSE_QCA7000
+            showAsHex(myethreceivebuffer, myethreceivebufferLen, "eth.myreceivebuffer");
+          #endif
           if (etherType == 0x88E1) { /* it is a HomePlug message */
             Serial.println("Its a HomePlug message.");
             evaluateReceivedHomeplugPacket();
@@ -162,6 +167,9 @@ void QCA7000checkRxDataAndDistribute(int16_t availbytes) {
         blDone=1;      
     }         
   }
+  #ifdef VERBOSE_QCA7000
+    Serial.println("QCA7000: The SPI frame contained " + String(counterOfEthFramesInSpiFrame) + " ETH frames.");
+  #endif
 }
 
 void spiQCA7000checkForReceivedData(void) {
@@ -170,7 +178,9 @@ void spiQCA7000checkForReceivedData(void) {
   uint16_t i;
   availBytes = spiQCA7000DemoReadRDBUF_BYTE_AVA();
   if (availBytes>0) {
-    Serial.println("avail RX bytes: " + String(availBytes));
+    #ifdef VERBOSE_QCA7000
+      Serial.println("QCA7000 avail RX bytes: " + String(availBytes));
+    #endif
     /* If the QCA indicates that the receive buffer contains data, the following procedure
     is necessary to get the data (according to https://chargebyte.com/assets/Downloads/an4_rev5.pdf)
        - write the BFR SIZE, this sets the length of data to be read via external read
@@ -185,7 +195,7 @@ void spiQCA7000checkForReceivedData(void) {
     }
     digitalWrite(vspi->pinSS(), HIGH);
     vspi->endTransaction();     
-    QCA7000checkRxDataAndDistribute(availBytes);
+    QCA7000checkRxDataAndDistribute(availBytes); /* Takes the data from the SPI rx buffer, splits it into ethernet frames and distributes them. */
   }
 }
 
@@ -205,6 +215,10 @@ void spiQCA7000SendEthFrame(void) {
   xx yy But the Hyundai CCM sends two bytes more, either 00 00 or FE 80 or E1 FF or other. Most likely not relevant.
   Protocol explanation from https://chargebyte.com/assets/Downloads/an4_rev5.pdf 
 */
+  /* Todo:
+    1. Check whether the available transmit buffer size is big enough to get the intended frame.
+       If not, this is an error situation, and we need to instruct the QCA to heal, e.g. by resetting it.
+  */
   spiQCA7000DemoWriteBFR_SIZE(myethtransmitbufferLen+10); /* The size in the BFR_SIZE is 10 bytes more than in the size after the preamble below (in the original CCM trace) */
   mySpiTxBuffer[0] = 0x00; /* external write command */
   mySpiTxBuffer[1] = 0x00;
@@ -233,7 +247,9 @@ void spiQCA7000SendEthFrame(void) {
 void myEthTransmit(void) {
   uint16_t retval;
   nTotalTransmittedBytes += myethtransmitbufferLen;
-  showAsHex(myethtransmitbuffer, myethtransmitbufferLen, "myEthTransmit");
+  #ifdef VERBOSE_QCA7000
+    showAsHex(myethtransmitbuffer, myethtransmitbufferLen, "myEthTransmit");
+  #endif
   spiQCA7000SendEthFrame();
 }
 

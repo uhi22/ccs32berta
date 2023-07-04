@@ -91,8 +91,9 @@ void routeDecoderInputData(void) {
   */
   global_streamDec.data = &tcp_rxdata[V2GTP_HEADER_SIZE];
   global_streamDec.size = tcp_rxdataLen - V2GTP_HEADER_SIZE;
-  //addToTrace("The decoder will see:");  
-  showAsHex(global_streamDec.data, global_streamDec.size, "decoder will see");
+  #ifdef VERBOSE_EXI_DECODER
+    showAsHex(global_streamDec.data, global_streamDec.size, "decoder will see");
+  #endif
   /* We have something to decode, this is a good sign that the connection is fine.
      Inform the ConnectionManager that everything is fine. */
   connMgr_ApplOk();

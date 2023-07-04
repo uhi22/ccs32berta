@@ -181,8 +181,10 @@ void ipv6_packRequestIntoUdp(void) {
         // The content of buffer is ready. We can calculate the checksum. see https://en.wikipedia.org/wiki/User_Datagram_Protocol
         checksum = calculateUdpAndTcpChecksumForIPv6(UdpRequest, UdpRequestLen, EvccIp, broadcastIPv6, NEXT_UDP); 
         UdpRequest[6] = checksum >> 8;
-        UdpRequest[7] = checksum & 0xFF;        
-        showAsHex(UdpRequest, UdpRequestLen, "UDP request ");
+        UdpRequest[7] = checksum & 0xFF;
+        #ifdef VERBOSE_UDP
+          showAsHex(UdpRequest, UdpRequestLen, "UDP request ");
+        #endif
         ipv6_packRequestIntoIp();
 }
         

@@ -26,6 +26,7 @@ uint16_t connMgr_cycles;
 #define CONNMGR_TIMER_MAX (5*33) /* 5 seconds until an OkReport is forgotten. */
 #define CONNMGR_TIMER_MAX_10s (10*33) /* 10 seconds until an OkReport is forgotten. */
 #define CONNMGR_TIMER_MAX_15s (15*33) /* 15 seconds until an OkReport is forgotten. */
+#define CONNMGR_TIMER_MAX_20s (20*33) /* 20 seconds until an OkReport is forgotten. */
 
 
 uint8_t connMgr_getConnectionLevel(void) {
@@ -94,7 +95,7 @@ void connMgr_SlacOk(void) {
     /* The SetKey was sent to the local modem. This leads to restart of the
     local modem, and potenially also for the remote modem. If both modems are up,
     they need additional time to pair. We need to be patient during this process. */
-    connMgr_timerSlac = CONNMGR_TIMER_MAX_15s;
+    connMgr_timerSlac = CONNMGR_TIMER_MAX_20s;
 }
 
 void connMgr_SdpOk(void) {

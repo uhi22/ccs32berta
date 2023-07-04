@@ -1,6 +1,6 @@
 
 
-
+/* Todo: implement a retry strategy, to cover the situation that single packets are lost on the way. */
 
 #define NEXT_TCP 0x06 /* the next protocol is TCP */
 

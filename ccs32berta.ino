@@ -69,10 +69,10 @@ int n_loops;
 int nDebug;
 
 
-String line1 = "Hello";
-String line2 = "Init...";
-String line3 = "...test";
-String line4 = "1234...";
+String OledLine1 = "Hello";
+String OledLine2 = "Init...";
+String OledLine3 = "...test";
+String OledLine4 = "1234...";
 
 
 void sanityCheck(String info) {
@@ -149,7 +149,17 @@ void cyclicLcdUpdate(void) {
     if (strMinutes.length()<2) strMinutes = "0" + strMinutes;
     if (strSeconds.length()<2) strSeconds = "0" + strSeconds;
     strLine3extended = globalLine3 + " " + strMinutes + ":" + strSeconds;
-    hardwareInterface_showOnDisplay(globalLine1, globalLine2, strLine3extended);
+    OledLine1 = globalLine1;
+    OledLine2 = globalLine2;
+    OledLine3 = strLine3extended;
+    OledLine4 = "test";
+    display.clear();
+    display.setFont(ArialMT_Plain_16);
+    display.drawString(0,   0, OledLine1);
+    display.drawString(0,  16, OledLine2);
+    display.drawString(0,  32, OledLine3);
+    display.drawString(0,  48, OledLine4);
+    display.display();
     counterForDisplayUpdate=15; /* 15*30ms=450ms until forced cyclic update of the LCD */  
   }
 }
@@ -195,13 +205,6 @@ void task1s(void) {
   }
 
   //demoQCA7000(); 
-  display.clear();
-  display.setFont(ArialMT_Plain_16);
-  display.drawString(0,   0, line1);
-  display.drawString(0,  16, line2);
-  display.drawString(0,  32, line3);
-  display.drawString(0,  48, line4);
-  display.display();
 }
 
 /**********************************************************/
