@@ -1,0 +1,1912 @@
+
+rst:0x1 (POWERON_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:1184
+load:0x40078000,len:13160
+load:0x40080400,len:3036
+entry 0x400805e4
+CCS32berta Started.
+Relay test.
+[  1067][V][ccs32berta.ino:241] setup(): Setup finished.
+Setup finished.
+[  1098][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 0 0  --> 0
+[  1098][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 2 entering 0
+[  1128][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] ConnectionLevel changed from 0 to 5
+[  1128][V][ccs32berta.ino:108] addToTrace(): [ModemFinder] Starting modem search
+Its a HomePlug message.
+[  1159][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] received GET_SW.CNF
+[  1160][V][ccs32berta.ino:108] addToTrace(): For 4:65:65:ff:ff:ff the software version is MAC-QCA7005-1.1.0.730-04-20140815-CS 
+[  1608][V][ccs32berta.ino:108] addToTrace(): [ModemFinder] Number of modems:1
+[  1638][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] ConnectionLevel changed from 5 to 10
+[  1638][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 0 entering 2
+[  1668][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] Checkpoint100: Sending SLAC_PARAM.REQ...
+[  1668][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 2 entering 4
+Its a HomePlug message.
+[  1698][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] Checkpoint102: received SLAC_PARAM.CNF
+[  1698][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 4 entering 5
+[  1704][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 5 entering 6
+[  1758][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting START_ATTEN_CHAR.IND...
+[  1788][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting START_ATTEN_CHAR.IND...
+[  1818][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting START_ATTEN_CHAR.IND...
+[  1848][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 6 entering 7
+[  1878][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting MNBC_SOUND.IND...
+[  1908][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting MNBC_SOUND.IND...
+[  1938][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting MNBC_SOUND.IND...
+[  1968][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting MNBC_SOUND.IND...
+[  1998][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting MNBC_SOUND.IND...
+[  2028][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting MNBC_SOUND.IND...
+[  2058][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting MNBC_SOUND.IND...
+[  2088][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 149 0 0 0 0 0  --> 10
+[  2088][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting MNBC_SOUND.IND...
+[  2118][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting MNBC_SOUND.IND...
+[  2148][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting MNBC_SOUND.IND...
+[  2148][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 7 entering 8
+Its a HomePlug message.
+[  2269][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] received ATTEN_CHAR.IND
+[  2269][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] transmitting ATTEN_CHAR.RSP...
+[  2275][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 9 entering 10
+[  3078][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 116 0 0 0 0 0  --> 10
+[  3198][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] Checkpoint150: transmitting SLAC_MATCH.REQ...
+[  3198][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 10 entering 11
+Its a HomePlug message.
+[  3288][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] received SLAC_MATCH.CNF
+[  3289][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] From SlacMatchCnf, got network ID (NID) 1 2 3 4 5 6 7 
+[  3296][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] From SlacMatchCnf, got network membership key (NMK) 77 77 73 7f 77 77 77 77 77 77 77 77 77 77 77 77 
+[  3310][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] Checkpoint170: transmitting CM_SET_KEY.REQ
+[  3319][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 11 entering 12
+Its a HomePlug message.
+[  3336][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] received SET_KEY.CNF
+[  3336][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] SetKeyCnf says 1, this is formally 'rejected', but indeed ok.
+[  3344][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] ConnectionLevel changed from 10 to 15
+[  3353][V][ccs32berta.ino:108] addToTrace(): [SDP] Checkpoint200: Starting SDP.
+[  3360][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] Checking whether the pairing worked, by GET_KEY.REQ...
+[  3370][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 12 entering 13
+[  3376][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+Its a HomePlug message.
+[  3386][V][ccs32berta.ino:108] addToTrace(): received GET_KEY.CNF
+[  3391][V][ccs32berta.ino:108] addToTrace(): Modem #1 has 4:65:65:ff:ff:ff and result code is 0(OK)
+[  3400][V][ccs32berta.ino:108] addToTrace(): The local modem has key 77 77 73 7f 77 77 77 77 77 77 77 77 77 77 77 77 
+[  3410][V][ccs32berta.ino:108] addToTrace(): From GetKeyCnf, got network ID (NID) 1 2 3 4 5 6 7 
+[  3648][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] It was sufficient time to get the answers from the modems.
+[  3648][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] No EVSE seen (yet). Still waiting for it.
+[  3655][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 13 entering 12
+[  4068][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 83 0 634 0 0 0  --> 15
+[  4098][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  4338][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  4578][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  4818][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  5058][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 50 0 601 0 0 0  --> 15
+[  5058][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  5298][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  5538][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  5778][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  6018][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  6048][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 17 0 568 0 0 0  --> 15
+[  6258][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  6498][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  6738][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  6978][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  7038][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 535 0 0 0  --> 15
+[  7218][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  7458][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  7698][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+[  7938][V][ccs32berta.ino:108] addToTrace(): [SDP] initiating SDP request
+Its a IPv6 message.
+[  7998][V][ccs32berta.ino:108] addToTrace(): Its a UDP.
+[  7998][V][ccs32berta.ino:108] addToTrace(): [SDP] Checkpoint203: Received SDP response
+[  8002][V][ccs32berta.ino:108] addToTrace(): [SDP] Now we know the chargers IP.
+[  8009][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] ConnectionLevel changed from 15 to 50
+[  8017][V][ccs32berta.ino:108] addToTrace(): [PEVSLAC] from 12 entering 0
+[  8024][V][ccs32berta.ino:108] addToTrace(): [TCP] Checkpoint301: connecting
+[  8031][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 502 163 0 0  --> 50
+Its a IPv6 message.
+[  8059][V][ccs32berta.ino:108] addToTrace(): TCP received
+[  8059][V][ccs32berta.ino:108] addToTrace(): [TCP] sending first ACK
+[  8061][V][ccs32berta.ino:108] addToTrace(): [TCP] connected.
+[  8066][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] ConnectionLevel changed from 50 to 80
+[  8075][V][ccs32berta.ino:108] addToTrace(): [PEV] from 0 entering 2
+[  8081][V][ccs32berta.ino:108] addToTrace(): Checkpoint400: Sending the initial SupportedApplicationProtocolReq
+[  8091][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 42 bytes:01 fe 80 01 00 00 00 22 80 00 db ab 93 71 d3 23 4b 71 d1 b9 81 89 91 89 d1 91 81 89 91 d2 6b 9b 3a 23 2b 30 02 00 00 04 00 40 
+[  8109][V][ccs32berta.ino:108] addToTrace(): [PEV] from 2 entering 3
+Its a IPv6 message.
+[  8179][V][ccs32berta.ino:108] addToTrace(): TCP received
+[  8180][V][ccs32berta.ino:108] addToTrace(): In state WaitForSupportedApplicationProtocolResponse, received:
+[  8185][V][ccs32berta.ino:103] addToTrace_chararray():  has 12 bytes:01 fe 80 01 00 00 00 04 80 40 00 40 
+[  8194][V][ccs32berta.ino:108] addToTrace(): supportedAppProtocolRes
+[  8200][V][ccs32berta.ino:108] addToTrace(): ResponseCode 0, SchemaID_isUsed 1, SchemaID 1
+[  8208][V][ccs32berta.ino:108] addToTrace(): Checkpoint403: Schema negotiated. And Checkpoint500: Will send SessionSetupReq
+[  8220][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 29 bytes:01 fe 80 01 00 00 00 15 80 9a 02 00 00 00 00 00 00 00 00 11 d0 1b fb b6 fb be bf f8 00 
+[  8235][V][ccs32berta.ino:108] addToTrace(): [PEV] from 3 entering 4
+[  8242][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] ConnectionLevel changed from 80 to 100
+Its a IPv6 message.
+[  8301][V][ccs32berta.ino:108] addToTrace(): TCP received
+[  8302][V][ccs32berta.ino:108] addToTrace(): In state WaitForSessionSetupResponse, received:
+[  8305][V][ccs32berta.ino:103] addToTrace_chararray():  has 31 bytes:01 fe 80 01 00 00 00 17 80 9a 02 00 40 80 c1 01 41 81 c2 11 e0 20 1d 69 68 c0 c0 c0 c0 c0 80 
+[  8319][V][ccs32berta.ino:108] addToTrace(): after decoding: g_errn=0
+[  8325][V][ccs32berta.ino:108] addToTrace(): global_streamDecPos=23
+[  8332][V][ccs32berta.ino:108] addToTrace(): Checkpoint506: The Evse decided for SessionId
+[  8340][V][ccs32berta.ino:103] addToTrace_chararray():  has 8 bytes:01 02 03 04 05 06 07 08 
+[  8348][V][ccs32berta.ino:108] addToTrace(): Will send ServiceDiscoveryReq
+[  8355][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 21 bytes:01 fe 80 01 00 00 00 0d 80 9a 02 00 40 80 c1 01 41 81 c2 11 98 
+[  8368][V][ccs32berta.ino:108] addToTrace(): [PEV] from 4 entering 5
+Its a IPv6 message.
+[  8419][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[  8452][V][ccs32berta.ino:108] addToTrace(): TCP received
+[  8452][V][ccs32berta.ino:108] addToTrace(): In state WaitForServiceDiscoveryResponse, received:
+[  8456][V][ccs32berta.ino:103] addToTrace_chararray():  has 27 bytes:01 fe 80 01 00 00 00 13 80 9a 02 00 40 80 c1 01 41 81 c2 11 a0 01 20 02 41 00 c4 
+[  8469][V][ccs32berta.ino:108] addToTrace(): Will send ServicePaymentSelectionReq
+[  8477][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 24 bytes:01 fe 80 01 00 00 00 10 80 9a 02 00 40 80 c1 01 41 81 c2 11 b2 00 12 80 
+[  8491][V][ccs32berta.ino:108] addToTrace(): [PEV] from 5 entering 6
+Its a IPv6 message.
+[  8570][V][ccs32berta.ino:108] addToTrace(): TCP received
+[  8570][V][ccs32berta.ino:108] addToTrace(): In state WaitForServicePaymentSelectionResponse, received:
+[  8575][V][ccs32berta.ino:103] addToTrace_chararray():  has 22 bytes:01 fe 80 01 00 00 00 0e 80 9a 02 00 40 80 c1 01 41 81 c2 11 c0 00 
+[  8587][V][ccs32berta.ino:108] addToTrace(): Checkpoint530: Will send ContractAuthenticationReq
+[  8595][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 21 bytes:01 fe 80 01 00 00 00 0d 80 9a 02 00 40 80 c1 01 41 81 c2 10 b8 
+[  8608][V][ccs32berta.ino:108] addToTrace(): [PEV] from 6 entering 7
+Its a IPv6 message.
+[  8661][V][ccs32berta.ino:108] addToTrace(): TCP received
+[  9018][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 469 130 152 150  --> 100
+[  9468][V][ccs32berta.ino:108] addToTrace(): In state WaitForContractAuthenticationResponse, received:
+[  9468][V][ccs32berta.ino:103] addToTrace_chararray():  has 23 bytes:01 fe 80 01 00 00 00 0f 80 9a 02 00 40 80 c1 01 41 81 c2 10 c0 00 00 
+[  9478][V][ccs32berta.ino:108] addToTrace(): Checkpoint538: Auth is Finished. Will send ChargeParameterDiscoveryReq
+[  9489][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 52 bytes:01 fe 80 01 00 00 00 2c 80 9a 02 00 40 80 c1 01 41 81 c2 10 71 90 40 05 00 c0 c1 90 08 0e 19 09 80 60 a1 1c 06 01 84 87 06 d0 08 06 12 14 13 80 20 c8 14 00 
+[  9510][V][ccs32berta.ino:108] addToTrace(): [PEV] from 7 entering 8
+Its a IPv6 message.
+[  9560][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[  9595][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 10008][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 436 97 150 147  --> 100
+[ 10368][V][ccs32berta.ino:108] addToTrace(): In state WaitForChargeParameterDiscoveryResponse, received:
+[ 10368][V][ccs32berta.ino:103] addToTrace_chararray():  has 49 bytes:01 fe 80 01 00 00 00 29 80 9a 02 00 40 80 c1 01 41 81 c2 10 80 00 48 20 40 00 00 c9 90 02 06 20 50 19 30 80 c0 c8 02 06 4c 80 10 19 01 40 c8 0a 20 
+[ 10385][V][ccs32berta.ino:108] addToTrace(): Checkpoint550: It is Finished. Will change to state C and send CableCheckReq.
+[ 10396][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 24 bytes:01 fe 80 01 00 00 00 10 80 9a 02 00 40 80 c1 01 41 81 c2 10 11 40 05 00 
+[ 10410][V][ccs32berta.ino:108] addToTrace(): [PEV] from 8 entering 9
+Its a IPv6 message.
+[ 10490][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 10490][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 10998][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 403 64 147 144  --> 100
+[ 11268][V][ccs32berta.ino:108] addToTrace(): In state WaitForCableCheckResponse, received:
+[ 11268][V][ccs32berta.ino:103] addToTrace_chararray():  has 26 bytes:01 fe 80 01 00 00 00 12 80 9a 02 00 40 80 c1 01 41 81 c2 10 20 02 00 00 00 00 
+[ 11278][V][ccs32berta.ino:108] addToTrace(): The CableCheck result is 0 0
+[ 11284][V][ccs32berta.ino:108] addToTrace(): The EVSE says that the CableCheck is finished and ok.
+[ 11293][V][ccs32berta.ino:108] addToTrace(): Will send PreChargeReq
+[ 11300][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 32 bytes:01 fe 80 01 00 00 00 18 80 9a 02 00 40 80 c1 01 41 81 c2 11 51 40 05 00 c1 43 78 04 0c 0c 00 40 
+[ 11315][V][ccs32berta.ino:108] addToTrace(): [PEV] from 9 entering 10
+Its a IPv6 message.
+[ 11388][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 11424][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 11425][V][ccs32berta.ino:108] addToTrace(): In state WaitForPreChargeResponse, received:
+[ 11428][V][ccs32berta.ino:103] addToTrace_chararray():  has 30 bytes:01 fe 80 01 00 00 00 16 80 9a 02 00 40 80 c1 01 41 81 c2 11 60 00 40 00 00 01 92 20 04 00 
+[ 11442][V][ccs32berta.ino:108] addToTrace(): PreCharge aknowledge received.
+[ 11449][V][ccs32berta.ino:108] addToTrace(): EVSEPresentVoltage.Value 136
+[ 11455][V][ccs32berta.ino:108] addToTrace(): EVSEPresentVoltage.Multiplier 0
+[ 11462][V][ccs32berta.ino:108] addToTrace(): Using EVSEPresentVoltage=136
+[ 11469][V][ccs32berta.ino:108] addToTrace(): Difference too big. Continuing PreCharge.
+[ 11477][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 32 bytes:01 fe 80 01 00 00 00 18 80 9a 02 00 40 80 c1 01 41 81 c2 11 51 40 05 00 c1 43 78 04 0c 0c 00 40 
+Its a IPv6 message.
+[ 11572][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 11600][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 11898][V][ccs32berta.ino:108] addToTrace(): In state WaitForPreChargeResponse, received:
+[ 11898][V][ccs32berta.ino:103] addToTrace_chararray():  has 30 bytes:01 fe 80 01 00 00 00 16 80 9a 02 00 40 80 c1 01 41 81 c2 11 60 00 40 00 00 01 92 84 04 00 
+[ 11909][V][ccs32berta.ino:108] addToTrace(): PreCharge aknowledge received.
+[ 11915][V][ccs32berta.ino:108] addToTrace(): EVSEPresentVoltage.Value 161
+[ 11922][V][ccs32berta.ino:108] addToTrace(): EVSEPresentVoltage.Multiplier 0
+[ 11929][V][ccs32berta.ino:108] addToTrace(): Using EVSEPresentVoltage=161
+[ 11935][V][ccs32berta.ino:108] addToTrace(): Difference too big. Continuing PreCharge.
+[ 11944][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 32 bytes:01 fe 80 01 00 00 00 18 80 9a 02 00 40 80 c1 01 41 81 c2 11 51 40 05 00 c1 43 78 04 0c 0c 00 40 
+[ 11993][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 370 31 151 162  --> 100
+Its a IPv6 message.
+[ 12021][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 12021][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 12378][V][ccs32berta.ino:108] addToTrace(): In state WaitForPreChargeResponse, received:
+[ 12378][V][ccs32berta.ino:103] addToTrace_chararray():  has 30 bytes:01 fe 80 01 00 00 00 16 80 9a 02 00 40 80 c1 01 41 81 c2 11 60 00 40 00 00 01 92 e8 04 00 
+[ 12389][V][ccs32berta.ino:108] addToTrace(): PreCharge aknowledge received.
+[ 12395][V][ccs32berta.ino:108] addToTrace(): EVSEPresentVoltage.Value 186
+[ 12402][V][ccs32berta.ino:108] addToTrace(): EVSEPresentVoltage.Multiplier 0
+[ 12409][V][ccs32berta.ino:108] addToTrace(): Using EVSEPresentVoltage=186
+[ 12415][V][ccs32berta.ino:108] addToTrace(): Difference too big. Continuing PreCharge.
+[ 12424][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 32 bytes:01 fe 80 01 00 00 00 18 80 9a 02 00 40 80 c1 01 41 81 c2 11 51 40 05 00 c1 43 78 04 0c 0c 00 40 
+Its a IPv6 message.
+[ 12502][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 12530][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 12858][V][ccs32berta.ino:108] addToTrace(): In state WaitForPreChargeResponse, received:
+[ 12858][V][ccs32berta.ino:103] addToTrace_chararray():  has 30 bytes:01 fe 80 01 00 00 00 16 80 9a 02 00 40 80 c1 01 41 81 c2 11 60 00 40 00 00 01 93 4c 04 00 
+[ 12869][V][ccs32berta.ino:108] addToTrace(): PreCharge aknowledge received.
+[ 12875][V][ccs32berta.ino:108] addToTrace(): EVSEPresentVoltage.Value 211
+[ 12882][V][ccs32berta.ino:108] addToTrace(): EVSEPresentVoltage.Multiplier 0
+[ 12889][V][ccs32berta.ino:108] addToTrace(): Using EVSEPresentVoltage=211
+[ 12895][V][ccs32berta.ino:108] addToTrace(): Difference between accu voltage and inlet voltage is small. Sending PowerDeliveryReq.
+[ 12907][V][ccs32berta.ino:108] addToTrace(): This is a light bulb demo. Do not turn-on the relay at end of precharge.
+[ 12918][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 28 bytes:01 fe 80 01 00 00 00 14 80 9a 02 00 40 80 c1 01 41 81 c2 11 32 22 00 00 05 00 00 00 
+[ 12932][V][ccs32berta.ino:108] addToTrace(): [PEV] from 10 entering 11
+[ 12983][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 337 0 149 161  --> 100
+Its a IPv6 message.
+[ 13010][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 13010][V][ccs32berta.ino:108] addToTrace(): In state WaitForPowerDeliveryRes, received:
+[ 13014][V][ccs32berta.ino:103] addToTrace_chararray():  has 26 bytes:01 fe 80 01 00 00 00 12 80 9a 02 00 40 80 c1 01 41 81 c2 11 40 04 20 40 00 00 
+[ 13027][V][ccs32berta.ino:108] addToTrace(): Checkpoint700: Starting the charging loop with CurrentDemandReq
+[ 13037][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 13055][V][ccs32berta.ino:108] addToTrace(): [PEV] from 11 entering 12
+Its a IPv6 message.
+[ 13130][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 13131][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 13134][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 13141][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 13158][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 13176][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 13250][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 13251][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 13254][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 13261][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 13278][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 13296][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 13370][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 13371][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 13374][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 13390][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 13408][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 13490][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 13491][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 13494][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 13501][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 13518][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 13536][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 13610][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 13611][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 13614][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 13630][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 13648][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 13704][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 13729][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 13730][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 13733][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 13749][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 13767][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 13849][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 13850][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 13853][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 13869][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 13887][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 13969][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 13970][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 304 0 164 161  --> 100
+[ 13972][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 13980][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 13997][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 14015][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 14090][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 14091][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 14094][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 14101][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 14118][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 14136][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 14210][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 14211][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 14214][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 14230][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 14248][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 14330][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 14331][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 14334][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 14350][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 14368][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 14425][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 14425][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 14428][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 14436][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 14452][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 14470][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 14540][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 14541][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 14544][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 14551][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 14568][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 14586][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 14660][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 14661][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 14664][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 14671][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 14688][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 14706][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 14780][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 14781][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 14784][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 14800][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 14818][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 14873][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 14900][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 14901][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 14904][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 14920][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 14938][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 14958][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 271 0 162 163  --> 100
+Its a IPv6 message.
+[ 15020][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 15021][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 15024][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 15040][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 15058][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 15067][V][ccs32berta.ino:108] addToTrace(): This is a light bulb demo. Turning-on the bulb when 2s in the main charging loop.
+Its a IPv6 message.
+[ 15140][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 15141][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 15144][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 15160][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 15178][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 15233][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 15260][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 15261][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 15264][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 15280][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 15298][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 15380][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 15381][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 15384][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 15400][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 15418][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 15500][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 15501][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 15504][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 15520][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 15538][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 15593][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 15620][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 15621][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 15624][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 15640][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 15658][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 15739][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 15740][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 15743][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 15759][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 15777][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 15860][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 15861][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 15864][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 15880][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 15898][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 15953][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 15953][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 238 0 161 162  --> 100
+Its a IPv6 message.
+[ 15980][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 15981][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 15984][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 16000][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 16018][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 16100][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 16101][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 16104][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 16120][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 16138][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 16220][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 16221][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 16224][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 16240][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 16258][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 16313][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 16340][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 16341][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 16344][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 16360][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 16378][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 16459][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 16460][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 16463][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 16479][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 16497][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 16580][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 16581][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 16584][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 16600][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 16618][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 16673][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 16700][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 16701][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 16704][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 16720][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 16738][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 16820][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 16821][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 16824][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 16840][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 16858][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 16940][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 16941][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 205 0 164 161  --> 100
+[ 16943][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 16952][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 16968][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 16986][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 17060][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 17061][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 17064][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 17080][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 17098][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 17179][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 17180][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 17183][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 17199][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 17217][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 17300][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 17301][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 17304][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 17320][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 17338][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 17420][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 17421][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 17424][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 17440][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 17458][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 17513][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 17540][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 17541][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 17544][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 17560][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 17578][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 17659][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 17660][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 17663][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 17679][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 05 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 17697][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 17754][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 17779][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 17780][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 17783][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 17799][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 17817][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 17899][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 17900][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 17903][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 17919][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 17937][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 17948][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 172 0 163 164  --> 100
+Its a IPv6 message.
+[ 18019][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 18020][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 18023][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 18039][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 18057][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 18139][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 18140][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 18143][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 18159][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 18177][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 18259][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 18260][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 18263][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 18270][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 18287][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 18305][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 18380][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 18381][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 18384][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 18391][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 18408][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 18426][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 18500][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 18501][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 18504][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 18521][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 18539][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 18594][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 18618][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 18619][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 18622][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 18639][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 18657][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 18740][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 18741][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 18744][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 18751][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 18768][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 18786][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 18860][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 18861][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 18864][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 18871][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 18888][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 18906][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 18918][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 139 0 162 163  --> 100
+Its a IPv6 message.
+[ 18980][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 18981][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 18984][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 19000][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 19018][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 19100][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 19101][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 19104][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 19120][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 19138][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 19220][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 19221][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 19224][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 19240][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 19258][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 19314][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 19339][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 19340][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 19343][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 19359][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 19377][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 19459][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 19460][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 19463][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 19479][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 19497][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 19580][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 19581][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 19584][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 19600][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 19618][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 19673][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 19700][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 19701][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 19704][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 19720][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 19738][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 19794][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 19795][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 19798][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 19814][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 19833][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 19910][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 19911][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 106 0 164 161  --> 100
+[ 19913][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 19922][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 19938][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 19956][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 20030][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 20031][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 20034][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 20041][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 20058][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 20076][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 20150][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 20151][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 20154][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 20170][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 20188][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 20270][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 20271][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 20274][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 20281][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 20298][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 20316][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 20390][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 20391][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 20394][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 20410][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 20428][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 20485][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 20485][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 20488][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 20496][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 20512][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 20530][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 20600][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 20601][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 20604][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 20620][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 20638][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 20694][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 20695][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 20698][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 20714][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 20733][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 20810][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 20811][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 20814][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 20830][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 20848][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 20904][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 20905][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 73 0 164 162  --> 100
+[ 20908][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 20916][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 20932][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 20950][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 21020][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 21021][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 21024][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 21040][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 21058][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 21139][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 21140][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 21143][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 21159][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 21177][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 21234][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 21259][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 21260][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 21263][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 21279][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 21297][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 21378][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 21379][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 21382][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 21399][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 21417][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 21500][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 21501][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 21504][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 21520][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 21538][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 21593][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 21620][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 21621][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 21624][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 21640][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 21658][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 21740][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 21741][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 21744][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 21760][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 21778][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 21860][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 21861][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 21864][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 21880][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 21898][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 21906][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 40 0 163 164  --> 100
+Its a IPv6 message.
+[ 21953][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 21980][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 21981][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 21984][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 22000][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 22018][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 22099][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 22100][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 22103][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 22119][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 22137][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 22220][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 22221][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 22224][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 22240][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 22258][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 22313][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 22340][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 22341][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 22344][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 22361][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 06 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 22379][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 22460][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 22461][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 22464][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 22480][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 22498][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 22580][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 22581][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 22584][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 22600][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 22618][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 22674][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 22699][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 22700][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 22703][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 22719][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 22737][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 22794][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 22795][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 22798][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 22814][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 22833][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 22882][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 7 0 161 162  --> 100
+Its a IPv6 message.
+[ 22910][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 22911][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 22914][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 22930][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 22948][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 23030][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 23031][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 23034][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 23050][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 23068][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 23149][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 23150][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 23153][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 23160][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 23177][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 23195][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 23270][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 23271][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 23274][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 23281][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 23298][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 23316][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 23390][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 23391][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 23394][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 23401][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 23418][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 23436][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 23510][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 23511][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 23514][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 23530][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 23548][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 23604][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 23605][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 23608][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 23624][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 23643][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 23720][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 23721][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 23724][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 23740][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 23758][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 23814][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 23839][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 23840][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 23843][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 23859][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 23877][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 23885][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 163 164  --> 100
+Its a IPv6 message.
+[ 23934][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 23935][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 23938][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 23954][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 23973][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 24050][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 24051][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 24054][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 24070][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 24088][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 24170][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 24171][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 24174][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 24190][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 24208][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 24264][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 24289][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 24290][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 24293][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 24309][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 24327][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 24410][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 24411][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 24414][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 24430][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 24448][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 24529][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 24530][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 24533][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 24549][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 24567][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 24623][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 24650][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 24651][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 24654][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 24670][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 24688][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 24744][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 24745][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 24748][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 24764][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 24783][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 24860][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 24861][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 164 161  --> 100
+[ 24863][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 24871][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 24888][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 24906][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 24980][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 24981][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 24984][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 25000][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 25018][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 25100][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 25101][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 25104][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 25120][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 25138][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 25220][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 25221][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 25224][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 25240][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 25258][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 25313][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 25340][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 25341][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 25344][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 25360][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 25378][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 25434][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 25435][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 25438][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 25454][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 25473][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 25550][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 25551][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 25554][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 25561][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 25578][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 25596][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 25670][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 25671][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 25674][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 25690][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 25708][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 25789][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 25790][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 25793][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 25800][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 25817][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 25835][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 25848][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 162 163  --> 100
+Its a IPv6 message.
+[ 25910][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 25911][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 25914][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 25921][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 25938][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 25956][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 26030][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 26031][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 26034][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 26050][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 26068][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 26123][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 26150][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 26151][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 26154][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 26170][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 26188][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 26269][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 26270][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 26273][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 26289][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 26307][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 26364][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 26365][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 26368][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 26384][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 26403][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 26480][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 26481][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 26484][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 26500][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 26518][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 26599][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 26600][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 26603][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 26619][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 26637][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 26694][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 26695][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 26698][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 26714][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 26733][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 26810][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 26811][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 26814][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 26830][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 26848][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 26856][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 163 164  --> 100
+Its a IPv6 message.
+[ 26903][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 26930][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 26931][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 26934][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 26950][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 07 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 26968][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 27049][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 27050][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 27053][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 27069][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 27087][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 27145][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 27145][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 27148][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 27156][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 27172][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 27190][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 27260][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 27261][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 27264][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 27271][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 27288][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 27306][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 27380][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 27381][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 27384][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 27391][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 27408][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 27426][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 27500][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 27501][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 27504][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 27511][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 27528][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 27546][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 27620][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 27621][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 27624][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 27640][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 27658][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 27740][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 27741][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 27744][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 27760][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 27778][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 27832][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 161 162  --> 100
+Its a IPv6 message.
+[ 27860][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 27861][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 27864][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 27880][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 27898][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 27954][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 27979][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 27980][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 27983][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 27999][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 28017][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 28100][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 28101][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 28104][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 28120][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 28138][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 28220][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 28221][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 28224][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 28240][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 28258][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 28313][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 28340][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 28341][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 28344][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 28360][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 28378][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 28459][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 28460][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 28463][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 28479][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 28497][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 28580][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 28581][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 28584][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 28600][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 28618][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 28675][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 28675][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 28678][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 28686][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 28702][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 28720][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 28790][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 28791][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 28794][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 28810][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 28828][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 28836][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 163 164  --> 100
+Its a IPv6 message.
+[ 28909][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 28910][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 28913][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 28929][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 28947][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 29004][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 29005][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 29008][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 29024][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 29043][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 29120][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 29121][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 29124][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 29140][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 29158][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 29240][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 29241][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 29244][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 29260][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 29278][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 29360][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 29361][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 29364][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 29380][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 29398][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 29453][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 29480][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 29481][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 29484][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 29500][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 29518][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 29574][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 29575][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 29578][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 29594][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 29613][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 29690][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 29691][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 29694][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 29710][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 29728][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 29810][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 29811][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 164 161  --> 100
+[ 29813][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 29821][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 29838][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 29856][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 29931][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 29931][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 29934][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 29942][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 29958][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 29976][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 30050][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 30051][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 30054][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 30061][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 30078][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 30096][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 30170][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 30171][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 30174][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 30181][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 30198][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 30216][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 30290][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 30291][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 30294][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 30310][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 30328][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 30409][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 30410][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 30413][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 30429][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 30447][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 30529][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 30530][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 30533][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 30549][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 30567][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 30625][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 30625][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 30629][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 30645][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 30663][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 30740][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 30741][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 30744][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 30751][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 30768][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 30786][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 30798][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 162 163  --> 100
+Its a IPv6 message.
+[ 30860][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 30861][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 30864][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 30871][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 30888][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 30906][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 30980][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 30981][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 30984][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 31000][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 31018][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 31100][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 31101][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 31104][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 31120][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 31138][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 31219][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 31220][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 31223][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 31239][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 31257][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 31314][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 31339][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 31340][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 31343][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 31359][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 31377][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 31459][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 31460][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 31463][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 31479][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 31497][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 31554][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 31555][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 31558][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 31574][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 08 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 31593][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 31670][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 31671][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 31674][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 31690][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 31708][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 31763][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 31790][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 31791][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 164 161  --> 100
+[ 31793][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 31801][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 31818][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 31836][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 31910][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 31911][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 31914][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 31921][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 31938][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 31956][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 32030][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 32031][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 32034][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 32050][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 32068][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 32125][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 32125][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 32128][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 32136][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 32152][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 32170][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 32240][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 32241][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 32244][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 32260][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 32278][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 32360][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 32361][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 32364][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 32380][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 32398][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 32454][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 32479][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 32480][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 32483][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 32499][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 32517][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 32574][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 32575][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 32578][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 32594][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 32613][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 32690][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 32691][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 32694][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 32710][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 32728][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 32784][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 32784][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 161 162  --> 100
+Its a IPv6 message.
+[ 32809][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 32810][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 32813][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 32829][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 32847][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 32929][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 32930][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 32933][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 32940][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 32957][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 32975][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 33050][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 33051][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 33054][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 33061][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 33078][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 33096][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 33170][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 33171][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 33174][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 33190][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 33208][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 33263][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 33290][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 33291][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 33294][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 33310][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 33328][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 33409][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 33410][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 33413][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 33429][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 33447][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 33503][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 33530][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 33531][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 33534][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 33550][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 33568][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 33649][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 33650][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 33653][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 33660][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 33677][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 33695][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 33770][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 33771][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 33774][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 164 161  --> 100
+[ 33781][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 33789][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 33805][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 33823][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 33890][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 33891][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 33894][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 33910][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 33928][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 33983][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 34010][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 34011][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 34014][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 34030][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 34048][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 34129][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 34130][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 34133][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 34149][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 34167][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 34250][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 34251][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 34254][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 34270][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 34288][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 34343][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 34370][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 34371][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 34374][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 34390][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 34408][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 34489][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 34490][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 34493][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 34509][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 34527][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 34584][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 34585][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 34588][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 34604][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 34623][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 34700][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 34701][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 34704][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 34720][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 34738][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 34758][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 162 163  --> 100
+Its a IPv6 message.
+[ 34820][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 34821][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 34824][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 34831][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 34848][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 34866][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 34940][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 34941][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 34944][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 34951][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 34968][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 34986][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 35060][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 35061][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 35064][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 35080][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 35098][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 35179][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 35180][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 35183][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 35199][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 35217][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 35299][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 35300][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 35303][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 35319][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 35337][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 35395][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 35395][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 35398][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 35406][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 35422][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 35440][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 35510][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 35511][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 35514][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 35521][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 35538][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 35556][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 35630][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 35631][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 35634][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 35641][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 35658][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 35676][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 35750][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 35751][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 164 161  --> 100
+[ 35753][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 35761][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 35778][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 35796][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 35870][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 35871][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 35874][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 35890][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 35908][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 35989][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 35990][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 35993][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 36009][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 36027][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 36085][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 36085][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 36089][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 36105][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 36123][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 36200][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 36201][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 36204][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 36220][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 09 c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 36238][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 36319][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 36320][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 36323][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 36339][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 36357][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 36439][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 36440][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 36443][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 36459][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 36477][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 36535][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 36535][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 36538][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 36546][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 36562][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 36580][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 36652][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 36653][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 36656][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 36663][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 36680][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 36698][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 36742][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 161 162  --> 100
+Its a IPv6 message.
+[ 36770][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 36771][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 36774][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 36790][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 36808][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 36890][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 36891][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 36894][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 36910][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 36928][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 36984][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 37009][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 37010][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 37013][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 37029][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 37047][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 37129][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 37130][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 37133][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 37149][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 37167][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 37224][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 37225][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 37228][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 37244][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 37263][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 37340][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 37341][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 37344][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 37360][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 37378][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 37459][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 37460][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 37463][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 37479][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 37497][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 37580][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 37581][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 37584][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 37601][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 37619][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 37673][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 37700][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 37701][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 37704][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 37720][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 37738][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 37746][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 163 164  --> 100
+Its a IPv6 message.
+[ 37819][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 37820][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 37823][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 37839][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 37857][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 37939][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 37940][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 37943][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 37959][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 37977][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 38033][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 38060][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 38061][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 38064][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 38080][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 38098][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 38179][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 38180][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 38183][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 38190][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 38207][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 38225][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 38300][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 38301][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 38304][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 38311][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 38328][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 38346][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 38420][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 38421][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 38424][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 38440][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 38458][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 38513][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 38540][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 38541][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 38544][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 38560][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 40 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 38578][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 38659][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 38660][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 38663][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 38679][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 38697][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+[ 38718][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 162 163  --> 100
+Its a IPv6 message.
+[ 38780][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 38781][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 38784][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 38800][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 38818][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 38873][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 38900][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 38901][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 38904][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 38920][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 38938][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 39020][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 39021][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 39024][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 39040][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 39058][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 39140][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 39141][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 39144][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 39160][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 39178][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 39235][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 39235][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 39238][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 39246][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 39262][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 39280][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 39350][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 39351][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 39354][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 39370][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 39388][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 39470][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 39471][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 39474][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 39490][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 39508][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 39563][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 39590][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 39591][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 39594][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 39610][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 39628][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 39709][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 39710][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 164 161  --> 100
+[ 39712][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 39720][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 39737][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a 80 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 39755][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 39830][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 39831][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 39834][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 39841][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 39858][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 39876][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 39950][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 39951][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 39954][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 39970][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 39988][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 40044][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 40045][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 40048][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 40065][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 40083][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 40160][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 40161][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 40164][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 40171][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 40188][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 40206][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 40280][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 40281][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 40284][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 30 08 18 18 00 84 00 c0 
+[ 40300][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 40318][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 40375][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 40375][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 40378][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 40386][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 40402][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 40420][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 40490][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 40491][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 40494][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 40510][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 40528][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 40584][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 40585][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 40588][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 40604][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 40623][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 40700][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 40701][V][ccs32berta.ino:108] addToTrace(): [CONNMGR] 165 0 0 0 0 164 161  --> 100
+[ 40703][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 40711][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 40728][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 40746][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 40820][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 40821][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 40824][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 40840][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0a c0 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 40858][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 40939][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 40940][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 40943][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 28 08 18 18 00 84 00 c0 
+[ 40959][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0b 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 40977][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 41034][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 41059][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 41060][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 41063][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 41079][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0b 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 41097][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 41154][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 41155][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 41158][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 41174][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0b 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 41193][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 41270][V][ccs32berta.ino:108] addToTrace(): TCP received
+Its a IPv6 message.
+[ 41271][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 41274][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 41281][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 41298][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 00 00 23 80 9a 02 00 40 80 c1 01 41 81 c2 10 d1 40 0b 00 c0 c0 14 60 01 81 05 80 48 0c 08 36 01 00 c1 43 94 04 00 
+[ 41316][V][ccs32berta.ino:108] addToTrace(): [PEV] from 12 entering 12
+Its a IPv6 message.
+[ 41390][V][ccs32berta.ino:108] addToTrace(): TCP received
+[ 41391][V][ccs32berta.ino:108] addToTrace(): In state WaitForCurrentDemandRes, received:
+[ 41394][V][ccs32berta.ino:103] addToTrace_chararray():  has 36 bytes:01 fe 80 01 00 00 00 1c 80 9a 02 00 40 80 c1 01 41 81 c2 10 e0 00 40 80 00 01 82 87 38 08 18 18 00 84 00 c0 
+[ 41411][V][ccs32berta.ino:103] addToTrace_chararray(): tcpPayload has 43 bytes:01 fe 80 01 00 
