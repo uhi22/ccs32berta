@@ -42,7 +42,7 @@
 //extern uint32_t uwe_rxMallocAccumulated;
 //extern uint32_t uwe_rxCounter;
 /**********************************************************/
-#define PIN_STATE_C 4 /* The IO4 is used to change the CP line to state C. High=StateC, Low=StateB */ 
+#define PIN_STATE_C 2 /* The IO2 is used to change the CP line to state C. High=StateC, Low=StateB */ 
 #define PIN_POWER_RELAIS 14 /* IO14 for the power relay */
 uint32_t currentTime;
 uint32_t lastTime1s;
@@ -219,6 +219,7 @@ void setup() {
   pinMode(PIN_STATE_C, OUTPUT);
   pinMode(PIN_POWER_RELAIS, OUTPUT);
   digitalWrite(PIN_POWER_RELAIS, HIGH); /* deactivate relais */
+  digitalWrite(PIN_STATE_C, LOW); /* stateB */
   delay(500); /* wait for power inrush, to avoid low-voltage during startup if we would switch the relay here. */
 
   qca7000setup();
