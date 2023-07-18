@@ -20,7 +20,6 @@ extern bitstream_t global_streamEnc; /* The byte stream descriptor. */
 extern bitstream_t global_streamDec; /* The byte stream descriptor. */
 extern size_t global_streamEncPos; /* The position in the stream. */
 extern size_t global_streamDecPos; /* The position in the stream. */
-extern char gResultString[500]; /* Debug info from the decoder. */
 extern int g_errn;
 
 #define SESSIONID_LEN 8

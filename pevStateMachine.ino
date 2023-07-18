@@ -36,6 +36,7 @@ uint16_t pev_numberOfCableCheckReq;
 uint8_t pev_wasPowerDeliveryRequestedOn;
 uint8_t pev_isBulbOn;
 uint16_t pev_cyclesLightBulbDelay;
+char strTmp[100];
 
 
 int32_t combineValueAndMultiplier(int32_t val, int8_t multiplier) {
@@ -283,11 +284,11 @@ void stateFunctionWaitForSupportedApplicationProtocolResponse(void) {
     if (aphsDoc.supportedAppProtocolRes_isUsed) {
         /* it is the correct response */
         addToTrace("supportedAppProtocolRes");
-        sprintf(gResultString, "ResponseCode %d, SchemaID_isUsed %d, SchemaID %d",
+        sprintf(strTmp, "ResponseCode %d, SchemaID_isUsed %d, SchemaID %d",
                       aphsDoc.supportedAppProtocolRes.ResponseCode,
                       aphsDoc.supportedAppProtocolRes.SchemaID_isUsed,
                       aphsDoc.supportedAppProtocolRes.SchemaID);
-        addToTrace(gResultString);
+        addToTrace(strTmp);
         publishStatus("Schema negotiated");
         addToTrace("Checkpoint403: Schema negotiated. And Checkpoint500: Will send SessionSetupReq");
         projectExiConnector_prepare_DinExiDocument();

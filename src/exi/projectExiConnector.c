@@ -2,14 +2,7 @@
 
 #include "projectExiConnector.h"
 
-//#include "EXITypes.h"
-//#include "dinEXIDatatypes.h"
-//#include "dinEXIDatatypesEncoder.h"
-//#include "dinEXIDatatypesDecoder.h"
 
-
-const uint8_t mytestbuffer[EXI_TRANSMIT_BUFFER_SIZE] = {0x80, 0x9A, 0x01, 0x01, 0xBB, 0xC0, 0x1C, 0x51, 0xE0, 0x20, 0x1B, 0x71, 0x10, 0x9C, 0x7F, 0x64, 0x6C, 0x00, 0x00 };
-const uint8_t mytestbufferLen = 19;
 uint8_t exiTransmitBuffer[EXI_TRANSMIT_BUFFER_SIZE];
 struct dinEXIDocument dinDocEnc;
 struct dinEXIDocument dinDocDec;
@@ -19,8 +12,6 @@ bitstream_t global_streamDec;
 size_t global_streamEncPos;
 size_t global_streamDecPos;
 int g_errn;
-char gDebugString[100];
-char gResultString[500];
 uint8_t sessionId[SESSIONID_LEN];
 uint8_t sessionIdLen;
 
@@ -35,9 +26,10 @@ void addToTrace_chararray(char *s);
 #endif
 
 void debugAddStringAndInt(char *s, int i) {
-	char sTmp[1000];
-	sprintf(sTmp, "%s%d", s, i);
-	strcat(gDebugString, sTmp);
+	//char sTmp[1000];
+	//sprintf(sTmp, "%s%d", s, i);
+    /* todo: before appending, check the size. Otherwise we get overflow! */
+	//strcat(gDebugString, sTmp);
 }
 
 void projectExiConnector_decode_appHandExiDocument(void) {
@@ -52,7 +44,7 @@ void projectExiConnector_decode_DinExiDocument(void) {
   /* precondition: The global_streamDec.size and global_streamDec.data have been set to the byte array with EXI data. */
 
   global_streamDec.pos = &global_streamDecPos;
-  *(global_streamDec.pos) = 0; /* the decoder shall start at the byte 0 */	
+  *(global_streamDec.pos) = 0; /* the decoder shall start at the byte 0 */
   g_errn = decode_dinExiDocument(&global_streamDec, &dinDocDec);
 }
 
